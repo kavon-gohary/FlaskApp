@@ -1,0 +1,69 @@
+h1
+{
+  font-family: Palatino Linotype;
+  /*text-decoration: underline;*/
+  color: white;
+  font-style: italic;
+
+}
+
+/*
+h1:hover
+{
+  background-color: black;
+}
+*/
+
+body
+{
+  /* by default all images posted on page have built in padding and margin from left wall. set them to zero to cancel that*/
+  /*background: url('http://www.technocrazed.com/wp-content/uploads/2015/12/Wood-Wallpaper-Background-3.jpg'); */
+
+  padding: 0;
+  margin: 0;
+}
+
+.polaroids:hover
+{
+  background-color: white;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+.polaroids
+{
+  display: inline-block;
+  margin: 5px;
+  /*padding: 5px;*/
+  border: 5px solid transparent;
+  opacity: 0.9;
+  transition: all .3s ease-in;
+}
+
+.list
+{
+  width: 685px;
+  margin: 0 auto;
+  /* font-size: 0    had this before and it obviously makes no sense*/
+}
+
+.polaroids img              /* this notation specifies that its codes will ONLY modify the img's that live inside the polaroids class */
+{
+    width: 200px;
+    height: 200px;
+    length: 100px;
+    border-radius: 10px 10px 0 0;
+}
+
+
+.textArea
+{
+  font-family: Palatino Linotype;
+  font-size: 16px;
+  width: 100%;
+  padding: 10px 20px;
+  background: white;
+  border-radius: 0 0 10px 10px;
+  text-align: center;
+}
+

@@ -1,0 +1,19 @@
+h1
+{
+  color: white;
+  text-align: center;
+  font-family: Palatino Linotype;
+  font-style: italic;
+
+}
+
+.mainImage
+{
+  border-radius: 30%;
+  border: 5px solid;
+  display: block;           /*this command and the 2 below are needed to center the image*/
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

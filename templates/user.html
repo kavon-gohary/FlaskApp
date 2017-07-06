@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block head %}
+{{super()}}
+    <link rel = "stylesheet" href="{{ url_for('static', filename = 'user2.css') }}">
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="page-header">
+        <h1>Team AT&T</h1>
+    </div>
+</div>
+<!--the code below what generated via emmet with this beautiful command: (.polaroids>(a>img)+div.textArea>p)*6 -->
+<div class="list">
+    <div class="polaroids"><a href="http://esq.h-cdn.co/assets/cm/15/07/54daf1f7c34a8_-_cruise-8wvmuk-620.jpeg"><img src="http://esq.h-cdn.co/assets/cm/15/07/54daf1f7c34a8_-_cruise-8wvmuk-620.jpeg" alt="1"></a>
+        <div class="textArea">
+            <p>Cruize man</p>
+        </div>
+    </div>
+    <div class="polaroids"><a href="https://a.wattpad.com/cover/27694569-512-k510675.jpg"><img src="https://a.wattpad.com/cover/27694569-512-k510675.jpg" alt="2"></a>
+        <div class="textArea">
+            <p>dude no</p>
+        </div>
+    </div>
+    <div class="polaroids"><a href="http://www3.pictures.zimbio.com/bg/2007+Teen+Choice+Awards+Arrivals+tAcpDihozjOl.jpg"><img src="http://www3.pictures.zimbio.com/bg/2007+Teen+Choice+Awards+Arrivals+tAcpDihozjOl.jpg" alt="3"></a>
+        <div class="textArea">
+            <p>plz halp</p>
+        </div>
+    </div>
+    <div class="polaroids"><a href="http://www.bdcwire.com/wp-content/uploads/2015/01/david-beckham.jpg"><img src="http://www.bdcwire.com/wp-content/uploads/2015/01/david-beckham.jpg" alt="4"></a>
+        <div class="textArea">
+            <p>becky why?</p>
+        </div>
+    </div>
+    <div class="polaroids"><a href="http://68.media.tumblr.com/tumblr_l6i6ajzyU01qd39nmo1_500.jpg"><img src="http://68.media.tumblr.com/tumblr_l6i6ajzyU01qd39nmo1_500.jpg" alt="5"></a>
+        <div class="textArea">
+            <p>stoooooop</p>
+        </div>
+    </div>
+    <div class="polaroids"><a href="http://esq.h-cdn.co/assets/cm/15/07/54daf1f8adf62_-_shia-650.jpeg"><img src="http://esq.h-cdn.co/assets/cm/15/07/54daf1f8adf62_-_shia-650.jpeg" alt="6"></a>
+        <div class="textArea">
+            <p>transformers guy</p>
+        </div>
+    </div>
+</div>
+{% endblock %}

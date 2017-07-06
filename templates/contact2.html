@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+
+{% block head %}
+{{super()}}
+    <link rel = "stylesheet" href="{{ url_for('static', filename = 'contact.css') }}">
+{% endblock %}
+
+
+{% block content %}
+<div class="container">
+    <div class="page-header">
+        <h1>Contact Us:</h1>
+    </div>
+
+    <div class="jumbotron">
+        <p>Contact us by phone, email, or twitter using the following links:</p>
+        <div class="contact-buttons">
+            <p><a href="#" class="btn btn-default btn-lg" role="button">PHONE</a></p>
+            <p><a href="#" class="btn btn-default btn-lg" role="button">EMAIL</a></p>
+            <p><a href="#" class="btn btn-default btn-lg" role="button">TWITTER</a></p>
+        </div>
+        <!--note how i stupidly used the &#45;&#45;&#45;&#45; instead of spaces, well thats because-->
+        <!--i tried extra spaces and html doesnt recognize but one extra space.-->
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-4 col-md-3 col-sm-6 col-xs-12">
+            <h4>num 1</h4>
+            asd fa sdf alks djf ;al skdj ;als kdjf; alskd jf;als kdjfsa dsdfgsdfg sdfg sdfg
+            asd fas dfal ksd f;a skd f;al skd jf;a ls kd j f alskd jfs ads d sdfg df sd fg
+            asd fas fa sdjf; lskdjf ;al kdj f; als jf; als kdjfs adsdfg sdf gsdfgs dfg
+            asdfasd fal ksdj ;a kdj ;alsk djf; lskdj ;als djfs ad  df sdfg s fgs dfg
+            asd fas fa sdjf; lskdjf ;al kdj f; als jf; als kdjfs adsdfg sdf gsdfgs dfg
+            asdfasd fal ksdj ;a kdj ;alsk djf; lskdj ;als djfs ad  df sdfg s fgs dfg
+        </div>
+
+        <div class="col-lg-4 col-md-3 col-sm-6 col-xs-12">
+            <h4>num 2</h4>
+            asd fa sdf alks djf ;al skdj ;als kdjf; alskd jf;als kdjfsa dsdfgsdfg sdfg sdfg
+            asd fas dfal ksd f;a skd f;al skd jf;a ls kd j f alskd jfs ads d sdfg df sd fg
+            asd fas fa sdjf; lskdjf ;al kdj f; als jf; als kdjfs adsdfg sdf gsdfgs dfg
+            asdfasd fal ksdj ;a kdj ;alsk djf; lskdj ;als djfs ad  df sdfg s fgs dfg
+        </div>
+        <div class="col-lg-4 col-md-3 col-sm-6 col-xs-12">
+            <h4>num 3</h4>
+            asd fa sdf alks djf ;al skdj ;als kdjf; alskd jf;als kdjfsa dsdfgsdfg sdfg sdfg
+            asd fas dfal ksd f;a skd f;al skd jf;a ls kd j f alskd jfs ads d sdfg df sd fg
+            asd fas fa sdjf; lskdjf ;al kdj f; als jf; als kdjfs adsdfg sdf gsdfgs dfg
+            asdfasd fal ksdj ;a kdj ;alsk djf; lskdj ;als djfs ad  df sdfg s fgs dfg
+        </div>
+
+        <div class="clearfix visable-md"></div>
+
+        <div class="col-lg-4 col-md-3 col-sm-6 col-xs-12">
+            <h4>num 4</h4>
+            asd fa sdf alks djf ;al skdj ;als kdjf; alskd jf;als kdjfsa dsdfgsdfg sdfg sdfg
+            asd fas dfal ksd f;a skd f;al skd jf;a ls kd j f alskd jfs ads d sdfg df sd fg
+            asd fas fa sdjf; lskdjf ;al kdj f; als jf; als kdjfs adsdfg sdf gsdfgs dfg
+            asdfasd fal ksdj ;a kdj ;alsk djf; lskdj ;als djfs ad  df sdfg s fgs dfg
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+

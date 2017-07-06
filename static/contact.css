@@ -1,0 +1,24 @@
+h1
+{
+  color: white;
+  font-family: Palatino Linotype;
+  font-style: italic;
+}
+
+.jumbotron
+{
+  background-color: #2E3D88;
+  color: white;
+}
+
+.contact-buttons p
+{
+  display: inline-block;
+  width: 30%;
+}
+
+.row
+{
+  color:white;
+  font-family: Palatino Linotype;
+}

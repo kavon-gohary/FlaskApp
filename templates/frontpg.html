@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}  Autists Unite {% endblock %}
+<!-- this is the title of the tab, if you want to put a title
+on the webpage itself, then use the h1 header -->
+
+{% block head %}
+{{super()}}
+    <link rel = "stylesheet" href="{{ url_for('static', filename = 'frontpg.css') }}">
+
+{% endblock %}
+
+
+{% block content %}
+    <img class="mainImage" src="{{ url_for('static', filename = 'frontimg.jpg') }}" alt="main dude">
+{% endblock %}

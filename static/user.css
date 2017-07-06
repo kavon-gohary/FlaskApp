@@ -1,0 +1,74 @@
+.list1
+{
+  /*color: #CC0066;*/
+  /*display: inline-block;*/        /*this cuts the gray background off*/
+}
+/* i commented out all the above css because it was very clear what that code was editing exactly
+   i am going to keep it here as a reminder that it might be a smarter idea to create classes for 
+   the list, ie li rather than doing one for ul or ol. */
+
+h1
+{
+  font-family: Palatino Linotype;
+  /*text-decoration: underline;*/
+  text-align: center;
+  color: white;
+  font-style: italic;
+}
+
+body
+{
+  /* by default all images posted on page have built in padding and margin from left wall. set them to zero to cancel that*/
+  background: url('http://www.technocrazed.com/wp-content/uploads/2015/12/Wood-Wallpaper-Background-3.jpg');
+  padding: 0;
+  margin: 0;
+}
+
+.polaroids
+{
+
+  margin-bottom: 20px;   /* space between bottom of div container and next container is 20px */
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  background: #333;
+  border-radius: 10px;
+  width: 28%;               /* the first size setting (ie width, height or length) sets the dimension of the div container, so having any other size
+                               setting below will be redundant. thats why height and length are auto in my case - they dont matter
+                               what this means is that i created a */
+  height: auto;
+  length: auto;
+  display: inline-block
+
+}
+
+.polaroids img              /* this notation specifies that its codes will ONLY modify the img's that live inside the polaroids class */
+{
+  width: 100%;
+  height: auto;
+  length: auto;
+  border-radius: 10px 10px 0 0;
+  /* this width and height setting above is hugely important. setting dimenstions like height and width equal to a percent
+     means that each image while take up that percent of the page in that direction.  well that not always very useful, but
+     what is very useful for using percent is that is resizes the image without stetching it awkwadly, and it also adapts
+     the the screen that it is on so that there is consistancy among user experience
+     note that this setting HAS to go under the img{} class
+     */
+}
+
+.polText
+{
+  /*
+  padding: 1px;
+  margin-bottom: 0;
+  background: white;
+  border-radius: 5px;
+  width: 15%;
+  text-align: center;
+  */
+
+  padding: 10px 20px;
+  text-align: center;
+  background-color: white;
+}
+
