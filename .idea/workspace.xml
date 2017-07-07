@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d803a0d8-3438-4c11-8e93-7bc73e570d4e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apachetest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test.txt" afterPath="" />
-    </list>
+    <list default="true" id="d803a0d8-3438-4c11-8e93-7bc73e570d4e" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
