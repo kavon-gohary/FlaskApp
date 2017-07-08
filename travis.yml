@@ -1,0 +1,24 @@
+{
+  "language": "python",
+  "python": "3.5",
+  "before_install":
+    [
+      "sudo apt-get update",
+      "pip install --upgrade pip"
+    ]
+
+  "install": "pip install -r requirements.txt",
+
+  "before_script":
+    [
+      "uname -a",
+      "printenv | sort",
+      "pip list"
+    ],
+  "script":
+    [
+      "date",
+      "ls -al"
+    ],
+  "os": "linux"
+}
