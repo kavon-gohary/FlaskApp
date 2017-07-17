@@ -12,7 +12,6 @@
   "before_script":
     [
       "uname -a",
-      "printenv | sort",
       "pip list"
     ],
   "script":
