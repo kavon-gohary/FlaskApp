@@ -40,4 +40,7 @@ def contacts():
 
 
 if __name__ =="__main__":
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=80, debug=True)
+#host='0.0.0.0' is python telling the computer to listen for all IP addresses
+#in other words take requests from all public IP addresses.
+#remember that a host is just any computer connected to a network (in our case the internet)
