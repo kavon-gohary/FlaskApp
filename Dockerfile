@@ -5,7 +5,9 @@ RUN apt-get install -yq python3.5
 RUN apt-get install -yq python3-pip
 RUN pip3 install --upgrade pip
 RUN apt-get install -yq apache2 curl
-RUN apt-get install -yq libapache2-mod-wsgi
+#RUN apt-get install -yq libapache2-mod-wsgi 
+#the above mod-wsgi is ONLY compatible with python 2 biitch
+RUN apt-get install -yq libapache2-mod-wsgi-py3
 RUN apt-get install -yq python3-flask
 RUN pip3 install flask-bootstrap
 RUN pip3 install --upgrade pip
