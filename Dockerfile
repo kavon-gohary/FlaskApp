@@ -3,6 +3,7 @@ FROM ubuntu:latest
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -yq apt-utils
 RUN apt-get install -yq python3.5
 RUN apt-get install -yq python3-pip
+RUN pip3 install --upgrade pip
 RUN apt-get install -yq apache2 curl
 RUN apt-get install -yq libapache2-mod-wsgi
 RUN apt-get install -yq python3-flask
