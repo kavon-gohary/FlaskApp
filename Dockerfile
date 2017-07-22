@@ -26,7 +26,7 @@ EXPOSE 80
 
 RUN a2enmod wsgi
 
-ADD FlaskApp.conf /etc/apache2/sites-enabled/FlaskApp.conf
+ADD FlaskApp.conf /etc/apache2/sites-enabled/000-default.conf
 ADD app.wsgi /var/www/appFolder/
 ADD makefile /var/www/appFolder/
 ADD requirements.txt /var/www/appFolder/
@@ -38,6 +38,8 @@ ADD site/ /var/www/appFolder/
 #appFOlder is a directory
 
 #CMD /usr/sbin/apache2ctl restart
-RUN service apache2 start
+#RUN service apache2 start
 #RUN service apache2 reload
+CMD /usr/sbin/apache2ctl -D FOREGROUND
+
 
