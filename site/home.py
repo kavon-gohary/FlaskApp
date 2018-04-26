@@ -41,7 +41,7 @@ def contacts():
 
 
 if __name__ =="__main__":
-    app.run(debug=True)
+    app.run(host=0.0.0.0, port 80)
 #host='0.0.0.0', port=80,
 #host='0.0.0.0' is python telling the computer to listen for all IP addresses
 #in other words take requests from all public IP addresses.
